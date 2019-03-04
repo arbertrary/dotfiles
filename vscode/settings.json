@@ -1,0 +1,45 @@
+{
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": false,
+    "workbench.colorTheme": "Arc Dark",
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.editor.enablePreview": false,
+    "window.restoreWindows": "none",
+    "window.zoomLevel": 0,
+    "hindent-format.command": "/home/armin/.local/bin/hindent",
+    "todohighlight.keywords": [
+        "DEBUG:",
+        "UNUSED:",
+        "REVIEW:",
+        {
+            "text": "HACK:",
+            "color": "red",
+            "isWholeLine": false,
+        },
+        {
+            "text": "NOTE:",
+            "color": "red",
+            "border": "1px solid red",
+            "borderRadius": "2px", //NOTE: using borderRadius along with `border` or you will see nothing change
+            "backgroundColor": "rgba(0,0,0,.2)",
+            //other styling properties goes here ... 
+        },
+        {
+            "text": "CLEANUP:",
+            "color": "red",
+            "border": "1px solid red",
+            "borderRadius": "2px", //NOTE: using borderRadius along with `border` or you will see nothing change
+            "backgroundColor": "rgba(0,0,0,.2)",
+            //other styling properties goes here ... 
+        },
+        {
+            "text": "(done)",
+            "color": "green",
+            "border": "1px solid green",
+            "borderRadius": "2px", //NOTE: using borderRadius along with `border` or you will see nothing change
+            "backgroundColor": "rgba(0,0,0,.2)",
+            //other styling properties goes here ... 
+        }
+    ]
+}
